@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
       <p>Your email <span>*</span></p>
       <input type="email" name="email" placeholder="Enter your email" maxlength="50" required class="box">
       <p>Your password <span>*</span></p>
-      <input type="password" name="pass" placeholder="Enter your password" maxlength="20" required class="box">
+      <input type="password" name="pass" placeholder="Enter your password" maxlength="50" required class="box">
       <p class="link">Don't have an account? <a href="register.php">Register now</a></p>
       <input type="submit" name="submit" value="login now" class="btn">
    </form>

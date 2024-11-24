@@ -105,14 +105,14 @@ if(isset($_POST['delete_video'])){
          <form action="" method="post" class="flex-btn">
             <input type="hidden" name="playlist_id" value="<?= $playlist_id; ?>">
             <a href="update_playlist.php?get_id=<?= $playlist_id; ?>" class="option-btn">update playlist</a>
-            <input type="submit" value="delete playlist" class="delete-btn" onclick="return confirm('delete this playlist?');" name="delete">
+            <input type="submit" value="delete playlist" class="delete-btn" onclick="return confirm('Delete this playlist?');" name="delete">
          </form>
       </div>
    </div>
    <?php
          }
       }else{
-         echo '<p class="empty">no playlist found!</p>';
+         echo '<p class="empty">No playlist found!</p>';
       }
    ?>
 
@@ -141,14 +141,14 @@ if(isset($_POST['delete_video'])){
          <form action="" method="post" class="flex-btn">
             <input type="hidden" name="video_id" value="<?= $video_id; ?>">
             <a href="update_content.php?get_id=<?= $video_id; ?>" class="option-btn">update</a>
-            <input type="submit" value="delete" class="delete-btn" onclick="return confirm('delete this video?');" name="delete_video">
+            <input type="submit" value="delete" class="delete-btn" onclick="return confirm('Delete this video?');" name="delete_video">
          </form>
-         <a href="view_content.php?get_id=<?= $video_id; ?>" class="btn">watch video</a>
+         <a href="view_content.php?get_id=<?= $video_id; ?>" class="btn">Watch video</a>
       </div>
    <?php
          }
       }else{
-         echo '<p class="empty">no videos added yet! <a href="add_content.php" class="btn" style="margin-top: 1.5rem;">add videos</a></p>';
+         echo '<p class="empty">No videos added yet! <a href="add_content.php" class="btn" style="margin-top: 1.5rem;">add videos</a></p>';
       }
    ?>
 

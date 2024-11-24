@@ -8,6 +8,7 @@ if(isset($_COOKIE['user_id'])){
    $user_id = '';
 }
 
+
 if(isset($_POST['submit'])){
 
    $id = unique_id();
@@ -62,7 +63,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -84,7 +85,7 @@ if(isset($_POST['submit'])){
             <p>Your name <span>*</span></p>
             <input type="text" name="name" placeholder="ter your name" maxlength="50" required class="box">
             <p>Your email <span>*</span></p>
-            <input type="email" name="email" placeholder="enter Your email" maxlength="20" required class="box">
+            <input type="email" name="email" placeholder="enter Your email" maxlength="50" required class="box">
          </div>
          <div class="col">
             <p>Your password <span>*</span></p>

@@ -28,7 +28,7 @@ $total_bookmarked = $select_bookmark->rowCount();
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -103,7 +103,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
       <div class="box tutor">
          <h3 class="title">Become a tutor</h3>
-         <p>Unleash your ability by be a mentor here or learntopia.</p>
+         <p>Unleash your ability by be a mentor here on learntopia.</p>
          <a href="admin/register.php" class="inline-btn">Get started</a>
       </div>
 
@@ -134,7 +134,7 @@ $total_bookmarked = $select_bookmark->rowCount();
       ?>
       <div class="box">
          <div class="tutor">
-            <img src="uploaded_files/<?= $fetch_tutor['image']; ?>" alt="">
+            <img src="uploaded_files/<?= $fetch_tutor['image']; ?>"  alt="">
             <div>
                <h3><?= $fetch_tutor['name']; ?></h3>
                <span><?= $fetch_course['date']; ?></span>
