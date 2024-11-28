@@ -83,9 +83,9 @@ if(isset($_POST['submit'])){
       <div class="flex">
          <div class="col">
             <p>Your name <span>*</span></p>
-            <input type="text" name="name" placeholder="ter your name" maxlength="50" required class="box">
+            <input type="text" name="name" placeholder="Enter your name" maxlength="50" required class="box">
             <p>Your email <span>*</span></p>
-            <input type="email" name="email" placeholder="enter Your email" maxlength="50" required class="box">
+            <input type="email" name="email" placeholder="Enter Your email" maxlength="50" required class="box">
          </div>
          <div class="col">
             <p>Your password <span>*</span></p>

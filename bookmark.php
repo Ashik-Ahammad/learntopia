@@ -62,16 +62,16 @@ if(isset($_COOKIE['user_id'])){
          </div>
          <img src="uploaded_files/<?= $fetch_course['thumb']; ?>" class="thumb" alt="">
          <h3 class="title"><?= $fetch_course['title']; ?></h3>
-         <a href="playlist.php?get_id=<?= $course_id; ?>" class="inline-btn">view playlist</a>
+         <a href="playlist.php?get_id=<?= $course_id; ?>" class="inline-btn">View playlist</a>
       </div>
       <?php
                }
             }else{
-               echo '<p class="empty">no courses found!</p>';
+               echo '<p class="empty">No courses found!</p>';
             }
          }
       }else{
-         echo '<p class="empty">nothing bookmarked yet!</p>';
+         echo '<p class="empty">Nothing bookmarked yet!</p>';
       }
       ?>
 
@@ -88,7 +88,6 @@ if(isset($_COOKIE['user_id'])){
 
 
 
-<?php include 'components/footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

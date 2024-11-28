@@ -40,8 +40,9 @@ if(isset($_COOKIE['user_id'])){
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis distinctio, nisi consequatur ad sequi, rem odit fugiat assumenda eligendi iure aut sunt ratione, tempore porro expedita quisquam.</p>
+         <h3>Why choose us?</h3>
+         <p>Choose Learntopia, your gateway to a world of knowledge. Our online platform offers a diverse range of courses, taught by expert instructors who are passionate about sharing their expertise. Learn at your own pace, on your own schedule, and from the comfort of your home. Our effort towards students will ensure a seamless and rewarding learning experience. Elevate your skills, advance your career, and unlock your full potential with Learntopia.
+</p>
          <a href="courses.html" class="inline-btn">our courses</a>
       </div>
 
@@ -53,7 +54,7 @@ if(isset($_COOKIE['user_id'])){
          <i class="fas fa-graduation-cap"></i>
          <div>
             <h3>+1k</h3>
-            <span>online courses</span>
+            <span>Online courses</span>
          </div>
       </div>
 
@@ -61,7 +62,7 @@ if(isset($_COOKIE['user_id'])){
          <i class="fas fa-user-graduate"></i>
          <div>
             <h3>+25k</h3>
-            <span>brilliants students</span>
+            <span>Brilliants students</span>
          </div>
       </div>
 
@@ -69,7 +70,7 @@ if(isset($_COOKIE['user_id'])){
          <i class="fas fa-chalkboard-user"></i>
          <div>
             <h3>+5k</h3>
-            <span>expert teachers</span>
+            <span>Expert teachers</span>
          </div>
       </div>
 
@@ -77,7 +78,7 @@ if(isset($_COOKIE['user_id'])){
          <i class="fas fa-briefcase"></i>
          <div>
             <h3>100%</h3>
-            <span>job placement</span>
+            <span>Job placement</span>
          </div>
       </div>
 
@@ -91,16 +92,16 @@ if(isset($_COOKIE['user_id'])){
 
 <section class="reviews">
 
-   <h1 class="heading">student's reviews</h1>
+   <h1 class="heading">Student's reviews</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat, quaerat voluptate odio consectetur assumenda fugit maxime unde at ex?</p>
+         <p>"I was initially hesitant to try online learning, but Learntopia completely changed my perspective. The courses are well-structured, the instructors are knowledgeable and engaging, and the platform is user-friendly. I've learned so much and gained valuable skills that have directly benefited my career."</p>
          <div class="user">
             <img src="images/pic-2.jpg" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>From Sarah</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -113,30 +114,30 @@ if(isset($_COOKIE['user_id'])){
       </div>
 
       <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat, quaerat voluptate odio consectetur assumenda fugit maxime unde at ex?</p>
+         <p>"I've taken several courses on Learntopia, and I'm consistently impressed by the quality of the content. The flexibility to learn at my own pace is a huge plus. The instructors are always available to answer questions, and the community forums are a great place to connect with other learners. Definitely worth the investment!"</p>
          <div class="user">
             <img src="images/pic-3.jpg" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>From David</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+                  <i class="fas fa-star"></i>
+                  
                </div>
             </div>
          </div>
       </div>
 
       <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat, quaerat voluptate odio consectetur assumenda fugit maxime unde at ex?</p>
+         <p>"As a busy working professional, finding time to learn new skills was a challenge. Learntopia's online platform made it easy to fit learning into my schedule. The courses are concise and to the point, and the interactive elements keep me engaged. I've already recommended Learntopia to several of my colleagues!"</p>
          <div class="user">
             <img src="images/pic-4.jpg" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>From Watford</h3>
                <div class="stars">
-                  <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -147,45 +148,45 @@ if(isset($_COOKIE['user_id'])){
       </div>
 
       <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat, quaerat voluptate odio consectetur assumenda fugit maxime unde at ex?</p>
+         <p>"I was looking for a way to upskill myself in a specific area, and Learntopia had exactly what I needed. The courses are comprehensive and cover all the essential topics. The instructors are experts in their field and provide clear explanations. I'm confident that the knowledge and skills I've gained will help me advance in my career."</p>
          <div class="user">
             <img src="images/pic-5.jpg" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>From Olivia</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+                  
                </div>
             </div>
          </div>
       </div>
 
       <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat, quaerat voluptate odio consectetur assumenda fugit maxime unde at ex?</p>
+         <p>"I've always been a visual learner, and Learntopia's video-based courses are perfect for me. The instructors are dynamic and engaging, and the content is easy to follow. I appreciate the opportunity to ask questions and interact with other learners. It's a great way to learn and connect with like-minded people."</p>
          <div class="user">
             <img src="images/pic-6.jpg" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>From Michael</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+                  <i class="fas fa-star"></i>
+                  
                </div>
             </div>
          </div>
       </div>
 
       <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo fugiat, quaerat voluptate odio consectetur assumenda fugit maxime unde at ex?</p>
+         <p>"I've been using Learntopia for over a year now, and I'm amazed at how much I've learned. The platform offers a wide range of courses on various topics, and the quality of the content is consistently high. I've even completed a few certification courses that have significantly boosted my professional profile."</p>
          <div class="user">
             <img src="images/pic-7.jpg" alt="">
             <div>
-               <h3>john deo</h3>
+               <h3>From Emily</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>

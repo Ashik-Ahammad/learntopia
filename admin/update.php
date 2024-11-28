@@ -81,16 +81,16 @@ if(isset($_POST['submit'])){
 
    if($old_pass != $empty_pass){
       if($old_pass != $prev_pass){
-         $message[] = 'old password not matched!';
+         $message[] = 'Old password not matched!';
       }elseif($new_pass != $cpass){
          $message[] = 'Password not matched!';
       }else{
          if($new_pass != $empty_pass){
             $update_pass = $conn->prepare("UPDATE `tutors` SET password = ? WHERE id = ?");
             $update_pass->execute([$cpass, $tutor_id]);
-            $message[] = 'password updated successfully!';
+            $message[] = 'Password updated successfully!';
          }else{
-            $message[] = 'please enter a new password!';
+            $message[] = 'Please enter a new password!';
          }
       }
    }
@@ -123,12 +123,12 @@ if(isset($_POST['submit'])){
 <section class="form-container" style="min-height: calc(100vh - 19rem);">
 
    <form class="register" action="" method="post" enctype="multipart/form-data">
-      <h3>update profile</h3>
+      <h3>Update profile</h3>
       <div class="flex">
          <div class="col">
             <p>Your name </p>
             <input type="text" name="name" placeholder="<?= $fetch_profile['name']; ?>" maxlength="50"  class="box">
-            <p>your profession </p>
+            <p>Your profession </p>
             <select name="profession" class="box">
                <option value="" selected><?= $fetch_profile['profession']; ?></option>
                <option value="developer">Developer</option>
@@ -144,18 +144,18 @@ if(isset($_POST['submit'])){
                <option value="photographer">Photographer</option>
             </select>
             <p>Your email </p>
-            <input type="email" name="email" placeholder="<?= $fetch_profile['email']; ?>" maxlength="20"  class="box">
+            <input type="email" name="email" placeholder="<?= $fetch_profile['email']; ?>" maxlength="20"  class="box" readonly>
          </div>
          <div class="col">
-            <p>old password :</p>
-            <input type="password" name="old_pass" placeholder="enter your old password" maxlength="20"  class="box">
-            <p>new password :</p>
-            <input type="password" name="new_pass" placeholder="enter your new password" maxlength="20"  class="box">
+            <p>Old password :</p>
+            <input type="password" name="old_pass" placeholder="Enter your old password" maxlength="20"  class="box">
+            <p>New password :</p>
+            <input type="password" name="new_pass" placeholder="Enter your new password" maxlength="20"  class="box">
             <p>Confirm password :</p>
             <input type="password" name="cpass" placeholder="Confirm your new password" maxlength="20"  class="box">
          </div>
       </div>
-      <p>update pic :</p>
+      <p>Update image :</p>
       <input type="file" name="image" accept="image/*"  class="box">
       <input type="submit" name="submit" value="update now" class="btn">
    </form>

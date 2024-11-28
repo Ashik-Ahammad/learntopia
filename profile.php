@@ -106,14 +106,27 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 
 
-
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
 
 
 <!-- footer section starts  -->
 
 <footer class="footer">
 
-   &copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!
+   &copy; Copyright @ 2024 by <span>The Folk Devs</span> | All rights reserved!
 
 </footer>
 

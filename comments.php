@@ -81,7 +81,7 @@ if(isset($_POST['update_now'])){
    <h1 class="heading">edti comment</h1>
    <form action="" method="post">
       <input type="hidden" name="update_id" value="<?= $fetch_edit_comment['id']; ?>">
-      <textarea name="update_box" class="box" maxlength="1000" required placeholder="please enter your comment" cols="30" rows="10"><?= $fetch_edit_comment['comment']; ?></textarea>
+      <textarea name="update_box" class="box" maxlength="1000" required placeholder="Please enter your comment" cols="30" rows="10"><?= $fetch_edit_comment['comment']; ?></textarea>
       <div class="flex">
          <a href="comments.php" class="inline-option-btn">cancel edit</a>
          <input type="submit" value="update now" name="update_now" class="inline-btn">
@@ -146,7 +146,7 @@ if(isset($_POST['update_now'])){
 
 
 
-<?php include 'components/footer.php'; ?>
+
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

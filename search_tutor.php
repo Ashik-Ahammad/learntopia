@@ -34,7 +34,7 @@ if(isset($_COOKIE['user_id'])){
    <h1 class="heading">expert tutors</h1>
 
    <form action="" method="post" class="search-tutor">
-      <input type="text" name="search_tutor" maxlength="100" placeholder="search tutor..." required>
+      <input type="text" name="search_tutor" maxlength="100" placeholder="Search tutor..." required>
       <button type="submit" name="search_tutor_btn" class="fas fa-search"></button>
    </form>
 
@@ -103,7 +103,28 @@ if(isset($_COOKIE['user_id'])){
 
 
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 

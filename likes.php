@@ -54,7 +54,7 @@ if(isset($_POST['remove'])){
 
 <section class="liked-videos">
 
-   <h1 class="heading">liked videos</h1>
+   <h1 class="heading">Liked videos</h1>
 
    <div class="box-container">
 
@@ -93,11 +93,11 @@ if(isset($_POST['remove'])){
    <?php
             }
          }else{
-            echo '<p class="emtpy">content was not found!</p>';         
+            echo '<p class="emtpy">Content was not found!</p>';         
          }
       }
    }else{
-      echo '<p class="empty">nothing added to likes yet!</p>';
+      echo '<p class="empty">Nothing added to likes yet!</p>';
    }
    ?>
 
@@ -114,7 +114,6 @@ if(isset($_POST['remove'])){
 
 
 
-<?php include 'components/footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
