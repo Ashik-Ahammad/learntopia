@@ -36,8 +36,8 @@ if(isset($_POST['submit'])){
    $video_tmp_name = $_FILES['video']['tmp_name'];
    $video_folder = '../uploaded_files/'.$rename_video;
 
-   if($thumb_size > 2000000){
-      $message[] = 'image size is too large!';
+   if($thumb_size > 3000000){
+      $message[] = 'Image size is too large!';
    }else{
       $add_playlist = $conn->prepare("INSERT INTO `content`(id, tutor_id, playlist_id, title, description, video, thumb, status) VALUES(?,?,?,?,?,?,?,?)");
       $add_playlist->execute([$id, $tutor_id, $playlist, $title, $description, $rename_video, $rename_thumb, $status]);

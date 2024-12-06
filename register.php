@@ -94,7 +94,7 @@ if(isset($_POST['submit'])){
             <input type="password" name="cpass" placeholder="Confirm Your password" maxlength="20" required class="box">
          </div>
       </div>
-      <p>select p<span>*</span></p>
+      <p>Select image</p>
       <input type="file" name="image" accept="image/*" required class="box">
       <p class="link">Already have an account? <a href="login.php">Login now</a></p>
       <input type="submit" name="submit" value="register now" class="btn">

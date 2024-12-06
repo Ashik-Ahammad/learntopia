@@ -79,8 +79,8 @@ if(isset($_POST['submit'])){
       <div class="box">
          <i class="fas fa-phone"></i>
          <h3>Phone number</h3>
-         <a href="tel:1234567890">+8801955482666</a>
-         <a href="tel:1112223333">+8801628823500</a>
+         <a href="tel:1234567890">+880 1955482666</a>
+         <a href="tel:1112223333">+880 1628823500</a>
       </div>
 
       <div class="box">

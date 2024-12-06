@@ -42,7 +42,7 @@ if(isset($_POST['like_content'])){
       }
 
    }else{
-      $message[] = 'please login first!';
+      $message[] = 'Please login first!';
    }
 
 }
@@ -73,15 +73,15 @@ if(isset($_POST['add_comment'])){
          }else{
             $insert_comment = $conn->prepare("INSERT INTO `comments`(id, content_id, user_id, tutor_id, comment) VALUES(?,?,?,?,?)");
             $insert_comment->execute([$id, $content_id, $user_id, $tutor_id, $comment_box]);
-            $message[] = 'new comment added!';
+            $message[] = 'New comment added!';
          }
 
       }else{
-         $message[] = 'something went wrong!';
+         $message[] = 'Something went wrong!';
       }
 
    }else{
-      $message[] = 'please login first!';
+      $message[] = 'Please login first!';
    }
 
 }
@@ -97,9 +97,9 @@ if(isset($_POST['delete_comment'])){
    if($verify_comment->rowCount() > 0){
       $delete_comment = $conn->prepare("DELETE FROM `comments` WHERE id = ?");
       $delete_comment->execute([$delete_id]);
-      $message[] = 'comment deleted successfully!';
+      $message[] = 'Comment deleted successfully!';
    }else{
-      $message[] = 'comment already deleted!';
+      $message[] = 'Comment already deleted!';
    }
 
 }
@@ -115,11 +115,11 @@ if(isset($_POST['update_now'])){
    $verify_comment->execute([$update_id, $update_box]);
 
    if($verify_comment->rowCount() > 0){
-      $message[] = 'comment already added!';
+      $message[] = 'Comment already added!';
    }else{
       $update_comment = $conn->prepare("UPDATE `comments` SET comment = ? WHERE id = ?");
       $update_comment->execute([$update_box, $update_id]);
-      $message[] = 'comment edited successfully!';
+      $message[] = 'Comment edited successfully!';
    }
 
 }
@@ -167,7 +167,7 @@ if(isset($_POST['update_now'])){
 </section>
 <?php
    }else{
-      $message[] = 'comment was not found!';
+      $message[] = 'Comment not found!';
    }
 }
 ?>
@@ -228,7 +228,7 @@ if(isset($_POST['update_now'])){
    <?php
          }
       }else{
-         echo '<p class="empty">no videos added yet!</p>';
+         echo '<p class="empty">No videos added yet!</p>';
       }
    ?>
 
@@ -248,7 +248,7 @@ if(isset($_POST['update_now'])){
       <input type="submit" value="add comment" name="add_comment" class="inline-btn">
    </form>
 
-   <h1 class="heading">user comments</h1>
+   <h1 class="heading">User comments</h1>
 
    
    <div class="show-comments">
@@ -275,8 +275,8 @@ if(isset($_POST['update_now'])){
          ?>
          <form action="" method="post" class="flex-btn">
             <input type="hidden" name="comment_id" value="<?= $fetch_comment['id']; ?>">
-            <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
-            <button type="submit" name="delete_comment" class="inline-delete-btn" onclick="return confirm('delete this comment?');">delete comment</button>
+            <button type="submit" name="edit_comment" class="inline-option-btn">Edit comment</button>
+            <button type="submit" name="delete_comment" class="inline-delete-btn" onclick="return confirm('Delete this comment?');">delete comment</button>
          </form>
          <?php
          }
@@ -285,7 +285,7 @@ if(isset($_POST['update_now'])){
       <?php
        }
       }else{
-         echo '<p class="empty">no comments added yet!</p>';
+         echo '<p class="empty">No comments added yet!</p>';
       }
       ?>
       </div>

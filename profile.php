@@ -126,7 +126,7 @@ $total_bookmarked = $select_bookmark->rowCount();
 
 <footer class="footer">
 
-   &copy; Copyright @ 2024 by <span>The Folk Devs</span> | All rights reserved!
+   &copy; Copyright 2024 by <span>The Folk Devs</span> | All rights reserved!
 
 </footer>
 

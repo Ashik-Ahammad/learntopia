@@ -44,7 +44,7 @@ if(isset($message)){
             <a href="login.php" class="option-btn">login</a>
             <a href="register.php" class="option-btn">register</a>
          </div>
-         <a href="../components/admin_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
+         <a href="../components/admin_logout.php" onclick="return confirm('Logout from this website?');" class="delete-btn">logout</a>
          <?php
             }else{
          ?>
@@ -101,7 +101,7 @@ if(isset($message)){
       <a href="playlists.php"><i class="fa-solid fa-bars-staggered"></i><span>Playlists</span></a>
       <a href="contents.php"><i class="fas fa-graduation-cap"></i><span>Contents</span></a>
       <a href="comments.php"><i class="fas fa-comment"></i><span>Comments</span></a>
-      <a href="../components/admin_logout.php" onclick="return confirm('logout from this website?');"><i class="fas fa-right-from-bracket"></i><span>Logout</span></a>
+      <a href="../components/admin_logout.php" onclick="return confirm('Logout from this website?');"><i class="fas fa-right-from-bracket"></i><span>Logout</span></a>
    </nav>
 
 </div>

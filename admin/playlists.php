@@ -97,7 +97,7 @@ if(isset($_POST['delete'])){
       <?php
          } 
       }else{
-         echo '<p class="empty">no playlist added yet!</p>';
+         echo '<p class="empty">No playlist added yet!</p>';
       }
       ?>
 

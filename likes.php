@@ -24,7 +24,7 @@ if(isset($_POST['remove'])){
          $message[] = 'removed from likes!';
       }
    }else{
-      $message[] = 'please login first!';
+      $message[] = 'Please login first!';
    }
 
 }

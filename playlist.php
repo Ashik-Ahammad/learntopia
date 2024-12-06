@@ -36,7 +36,7 @@ if(isset($_POST['save_list'])){
       }
 
    }else{
-      $message[] = 'please login first!';
+      $message[] = 'Please login first!';
    }
 
 }

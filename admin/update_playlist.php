@@ -39,8 +39,8 @@ if(isset($_POST['submit'])){
    $image_folder = '../uploaded_files/'.$rename;
 
    if(!empty($image)){
-      if($image_size > 2000000){
-         $message[] = 'image size is too large!';
+      if($image_size > 3000000){
+         $message[] = 'Image size is too large!';
       }else{
          $update_image = $conn->prepare("UPDATE `playlist` SET thumb = ? WHERE id = ?");
          $update_image->execute([$rename, $get_id]);
@@ -131,7 +131,7 @@ if(isset($_POST['delete'])){
    <?php
       } 
    }else{
-      echo '<p class="empty">no playlist added yet!</p>';
+      echo '<p class="empty">No playlist added yet!</p>';
    }
    ?>
 

@@ -48,8 +48,8 @@ if(isset($_POST['update'])){
    $thumb_folder = '../uploaded_files/'.$rename_thumb;
 
    if(!empty($thumb)){
-      if($thumb_size > 2000000){
-         $message[] = 'image size is too large!';
+      if($thumb_size > 3000000){
+         $message[] = 'Image size is too large!';
       }else{
          $update_thumb = $conn->prepare("UPDATE `content` SET thumb = ? WHERE id = ?");
          $update_thumb->execute([$rename_thumb, $video_id]);
@@ -144,17 +144,17 @@ if(isset($_POST['delete_video'])){
       <input type="hidden" name="video_id" value="<?= $fecth_videos['id']; ?>">
       <input type="hidden" name="old_thumb" value="<?= $fecth_videos['thumb']; ?>">
       <input type="hidden" name="old_video" value="<?= $fecth_videos['video']; ?>">
-      <p>update status <span>*</span></p>
+      <p>Update status <span>*</span></p>
       <select name="status" class="box" required>
          <option value="<?= $fecth_videos['status']; ?>" selected><?= $fecth_videos['status']; ?></option>
          <option value="active">Active</option>
          <option value="deactive">Deactive</option>
       </select>
-      <p>update title <span>*</span></p>
+      <p>Update title <span>*</span></p>
       <input type="text" name="title" maxlength="100" required placeholder="Enter video title" class="box" value="<?= $fecth_videos['title']; ?>">
-      <p>update description <span>*</span></p>
+      <p>Update description <span>*</span></p>
       <textarea name="description" class="box" required placeholder="Write description" maxlength="1000" cols="30" rows="10"><?= $fecth_videos['description']; ?></textarea>
-      <p>update playlist</p>
+      <p>Update playlist</p>
       <select name="playlist" class="box">
          <option value="<?= $fecth_videos['playlist_id']; ?>" selected>--select playlist</option>
          <?php
@@ -169,15 +169,15 @@ if(isset($_POST['delete_video'])){
          ?>
          <?php
          }else{
-            echo '<option value="" disabled>no playlist created yet!</option>';
+            echo '<option value="" disabled>No playlist created yet!</option>';
          }
          ?>
       </select>
       <img src="../uploaded_files/<?= $fecth_videos['thumb']; ?>" alt="">
-      <p>update thumbnail</p>
+      <p>Update thumbnail</p>
       <input type="file" name="thumb" accept="image/*" class="box">
       <video src="../uploaded_files/<?= $fecth_videos['video']; ?>" controls></video>
-      <p>update video</p>
+      <p>Update video</p>
       <input type="file" name="video" accept="video/*" class="box">
       <input type="submit" value="update content" name="update" class="btn">
       <div class="flex-btn">

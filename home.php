@@ -100,13 +100,6 @@ $total_bookmarked = $select_bookmark->rowCount();
             <a href="#"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></a>
          </div>
       </div>
-
-      <div class="box tutor">
-         <h3 class="title">Become a tutor</h3>
-         <p>Unleash your ability by be a mentor here on learntopia.</p>
-         <a href="admin/register.php" class="inline-btn">Get started</a>
-      </div>
-
    </div>
 
 </section>

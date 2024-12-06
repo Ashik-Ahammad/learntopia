@@ -43,7 +43,7 @@ if(isset($_COOKIE['user_id'])){
          <h3>Why choose us?</h3>
          <p>Choose Learntopia, your gateway to a world of knowledge. Our online platform offers a diverse range of courses, taught by expert instructors who are passionate about sharing their expertise. Learn at your own pace, on your own schedule, and from the comfort of your home. Our effort towards students will ensure a seamless and rewarding learning experience. Elevate your skills, advance your career, and unlock your full potential with Learntopia.
 </p>
-         <a href="courses.html" class="inline-btn">our courses</a>
+         <a href="courses.php" class="inline-btn">Our courses</a>
       </div>
 
    </div>
@@ -53,7 +53,7 @@ if(isset($_COOKIE['user_id'])){
       <div class="box">
          <i class="fas fa-graduation-cap"></i>
          <div>
-            <h3>+1k</h3>
+            <h3>100+</h3>
             <span>Online courses</span>
          </div>
       </div>
@@ -61,7 +61,7 @@ if(isset($_COOKIE['user_id'])){
       <div class="box">
          <i class="fas fa-user-graduate"></i>
          <div>
-            <h3>+25k</h3>
+            <h3>5k+</h3>
             <span>Brilliants students</span>
          </div>
       </div>
@@ -69,7 +69,7 @@ if(isset($_COOKIE['user_id'])){
       <div class="box">
          <i class="fas fa-chalkboard-user"></i>
          <div>
-            <h3>+5k</h3>
+            <h3>300+</h3>
             <span>Expert teachers</span>
          </div>
       </div>
@@ -118,7 +118,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-3.jpg" alt="">
             <div>
-               <h3>From David</h3>
+               <h3>From Asif</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -136,7 +136,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-4.jpg" alt="">
             <div>
-               <h3>From Watford</h3>
+               <h3>From Wasif</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -152,7 +152,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-5.jpg" alt="">
             <div>
-               <h3>From Olivia</h3>
+               <h3>From Rehana</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -168,7 +168,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-6.jpg" alt="">
             <div>
-               <h3>From Michael</h3>
+               <h3>From Mizan</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -186,7 +186,7 @@ if(isset($_COOKIE['user_id'])){
          <div class="user">
             <img src="images/pic-7.jpg" alt="">
             <div>
-               <h3>From Emily</h3>
+               <h3>From Emma</h3>
                <div class="stars">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>

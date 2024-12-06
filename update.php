@@ -51,8 +51,8 @@ if(isset($_POST['submit'])){
    $image_folder = 'uploaded_files/'.$rename;
 
    if(!empty($image)){
-      if($image_size > 2000000){
-         $message[] = 'image size too large!';
+      if($image_size > 3000000){
+         $message[] = 'Image size too large!';
       }else{
          $update_image = $conn->prepare("UPDATE `users` SET `image` = ? WHERE id = ?");
          $update_image->execute([$rename, $user_id]);
@@ -60,7 +60,7 @@ if(isset($_POST['submit'])){
          if($prev_image != '' AND $prev_image != $rename){
             unlink('uploaded_files/'.$prev_image);
          }
-         $message[] = 'image updated successfully!';
+         $message[] = 'Image updated successfully!';
       }
    }
 

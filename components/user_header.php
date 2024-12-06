@@ -86,11 +86,7 @@ if(isset($message)){
          <?php
             }else{
          ?>
-         <h3>Please Login or Register</h3>
-          <div class="flex-btn" style="padding-top: .5rem;">
-            <a href="login.php" class="option-btn">Login</a>
-            <a href="register.php" class="option-btn">Register</a>
-         </div>
+         
          <?php
             }
          ?>
@@ -98,10 +94,11 @@ if(isset($message)){
 
    <nav class="navbar">
       <a href="home.php"><i class="fas fa-home"></i><span>Home</span></a>
-      <a href="about.php"><i class="fas fa-question"></i><span>About us</span></a>
+      <a href="about.php"><i class="fa-solid fa-question"></i><span>About us</span></a>
       <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
       <a href="teachers.php"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
       <a href="contact.php"><i class="fas fa-headset"></i><span>Contact us</span></a>
+      <a href="admin/register.php"><i class="fas fa-chalkboard-teacher"></i></i><span>Become a tutor</span></a>
    </nav>
 
 </div>
