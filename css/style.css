@@ -371,6 +371,8 @@ section{
    left: -31rem;
 }
 
+
+
 .quick-select .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(27.5rem, 1fr));

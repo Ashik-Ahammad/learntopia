@@ -86,10 +86,10 @@ if(isset($_COOKIE['user_id'])){
       <?php
                }
             }else{
-               echo '<p class="empty">no results found!</p>';
+               echo '<p class="empty">No results found!</p>';
             }
          }else{
-            echo '<p class="empty">please search something!</p>';
+            echo '<p class="empty">Please search something!</p>';
          }
       ?>
 

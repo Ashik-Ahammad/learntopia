@@ -28,11 +28,11 @@ if(isset($_POST['save_list'])){
       if($select_list->rowCount() > 0){
          $remove_bookmark = $conn->prepare("DELETE FROM `bookmark` WHERE user_id = ? AND playlist_id = ?");
          $remove_bookmark->execute([$user_id, $list_id]);
-         $message[] = 'playlist removed!';
+         $message[] = 'Playlist removed!';
       }else{
          $insert_bookmark = $conn->prepare("INSERT INTO `bookmark`(user_id, playlist_id) VALUES(?,?)");
          $insert_bookmark->execute([$user_id, $list_id]);
-         $message[] = 'playlist saved!';
+         $message[] = 'Playlist saved!';
       }
 
    }else{

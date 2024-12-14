@@ -68,7 +68,7 @@ if(isset($_COOKIE['user_id'])){
          echo '<p class="empty">no courses found!</p>';
       }
       }else{
-         echo '<p class="empty">please search something!</p>';
+         echo '<p class="empty">Please search something!</p>';
       }
       ?>
 
@@ -82,7 +82,68 @@ if(isset($_COOKIE['user_id'])){
 
 
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
